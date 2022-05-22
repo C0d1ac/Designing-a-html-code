@@ -1,0 +1,167 @@
+
+body{
+  font-family: "Montserrat-Black",sans-serif;
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat-Bold";
+}
+
+p{
+  color: #8f8f8f;
+}
+/* Headings */
+.big-heading{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#title{
+  background-color: #ff4c68;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+/* Navbar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.25rem;
+  font-family: "Montserrat-Light";
+}
+/* Download Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+/* Title image */
+.title-image{
+  width:25%;
+  transform:rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+/* Features */
+#features{
+  padding: 7% 15%;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+.features-text{
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 100%;
+}
+
+.features-discreption{
+  color: #8f8f8f;
+  width: 60%;
+  margin: 0 20%;
+}
+.icons{
+  color:#ef8172;
+  margin-bottom: 1rem;
+  width:100%;
+}
+.icons:hover{
+  color:#ff4c68;
+}
+.features-box{
+  padding: 5%;
+}
+/* Testimonials */
+#testimonials{
+  background-color:#ef8172;
+  color: #ffff;
+}
+.testimonials-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.testimonials-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+/* Press section */
+#press{
+  background-color:#ef8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Pricing */
+#pricing{
+  padding: 100px;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.headers{
+  font-family: "Montserrat-Bold";
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.card-text{
+  padding: 5%;
+}
+@media (max-width:1100px) {
+  #title{
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+    width: 60%;
+    margin-left: 50px;
+  }
+}
+/* Call to Action */
+#cta{
+  padding: 7% 15%;
+  background-color:#ff4c68;
+  color: #ffff;
+}
+.buttonn{
+  margin: 1%;
+}
+/* Footer */
+#footer{
+  padding: 2% 15%;
+  background-color: #ffffff;
+}
+.footer-icons{
+  margin: 0 40%;
+}
+.copyright-text{
+  font-size: 1rem;
+}
+.icon-icon{
+  padding: 1.5rem;
+  color: Black;
+}
